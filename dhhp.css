@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px 50px;
+    font-family: Tahoma;
+    text-align: center;
+}
+header{
+    height: 150px;
+    background: red;
+}
+.banner>img{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+nav{
+    line-height: 25px;
+    background: rgb(5, 5, 90);
+    color: white;
+}
+nav>ul>li{
+    display: inline-block;
+    font-variant: small-caps;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin: 5px;
+}
+nav>ul>li>a:hover{
+    color: yellow;
+}
+article{
+    min-height: 300px;
+    width: 73%;
+    background: white;
+    margin-right: 5px;
+    box-shadow: 0 0 10px gray;
+    float: left;
+}
+.anh>img{
+    margin-left: 5px;
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 36%;
+    float: left;
+}
+.nd{
+    float:right;
+}
+.nd>ul>li{
+    text-align: justify;
+    line-height: normal;
+    padding: 5px;
+    margin-right: 5px;
+}
+.nd>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color: darkblue;
+}
+aside{
+    min-height: 300px;
+    width: 25%;
+    float: right;
+    box-shadow: 0 0 10px gray;
+}
+aside>ul>li{
+    text-align: justify;
+    line-height: normal;
+    padding: 5px;
+    margin-right: 5px;
+}
+aside>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color: darkblue;
+}
+h4{
+    color: white;
+    background: rgb(197, 57, 57);
+    margin-top: 0px;
+    line-height: 30px;
+}
+.space {
+    clear: both;
+}
+footer{
+    margin-top: 20px;
+    height: 60px;
+    background: rgb(5, 5, 90);
+    clear: both;
+}
+.diachi>p{
+    padding-top: 5px;
+    line-height: 25px;
+    color: white;
+}
